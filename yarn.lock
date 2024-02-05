@@ -3414,6 +3414,13 @@ eslint-compat-utils@^0.1.2:
   resolved "https://registry.npmjs.org/eslint-compat-utils/-/eslint-compat-utils-0.1.2.tgz#f45e3b5ced4c746c127cf724fb074cd4e730d653"
   integrity sha512-Jia4JDldWnFNIru1Ehx1H5s9/yxiRHY/TimCuUc0jNexew3cF1gI6CYZil1ociakfWO3rRqFjl1mskBblB3RYg==
 
+eslint-compat-utils@^0.4.0:
+  version "0.4.1"
+  resolved "https://registry.npmjs.org/eslint-compat-utils/-/eslint-compat-utils-0.4.1.tgz#498d9dad03961174a283f7741838a3fbe4a34e89"
+  integrity sha512-5N7ZaJG5pZxUeNNJfUchurLVrunD1xJvyg5kYOIVF8kg1f3ajTikmAu/5fZ9w100omNPOoMjngRszh/Q/uFGMg==
+  dependencies:
+    semver "^7.5.4"
+
 eslint-config-prettier@9.0.0:
   version "9.0.0"
   resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-9.0.0.tgz#eb25485946dd0c66cd216a46232dc05451518d1f"
@@ -3496,15 +3503,18 @@ eslint-plugin-json-schema-validator@^4.7.3:
     tunnel-agent "^0.6.0"
     yaml-eslint-parser "^1.0.0"
 
-eslint-plugin-jsonc@^2.10.0:
-  version "2.10.0"
-  resolved "https://registry.npmjs.org/eslint-plugin-jsonc/-/eslint-plugin-jsonc-2.10.0.tgz#4286fd49a79ee3dd86f9c6c61b6f3c65f30b954f"
-  integrity sha512-9d//o6Jyh4s1RxC9fNSt1+MMaFN2ruFdXPG9XZcb/mR2KkfjADYiNL/hbU6W0Cyxfg3tS/XSFuhl5LgtMD8hmw==
+eslint-plugin-jsonc@^2.13.0:
+  version "2.13.0"
+  resolved "https://registry.npmjs.org/eslint-plugin-jsonc/-/eslint-plugin-jsonc-2.13.0.tgz#e05f88d3671c08ca96e87b5be6a4cfe8d66e6746"
+  integrity sha512-2wWdJfpO/UbZzPDABuUVvlUQjfMJa2p2iQfYt/oWxOMpXCcjuiMUSaA02gtY/Dbu82vpaSqc+O7Xq6ECHwtIxA==
   dependencies:
     "@eslint-community/eslint-utils" "^4.2.0"
-    eslint-compat-utils "^0.1.2"
+    eslint-compat-utils "^0.4.0"
+    espree "^9.6.1"
+    graphemer "^1.4.0"
     jsonc-eslint-parser "^2.0.4"
     natural-compare "^1.4.0"
+    synckit "^0.6.0"
 
 eslint-plugin-lodash@^7.4.0:
   version "7.4.0"
@@ -7024,7 +7034,7 @@ semver-compare@^1.0.0:
   resolved "https://registry.npmjs.org/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
   integrity sha1-De4hahyUGrN+nvsXiPavxf9VN/w=
 
-semver@7.5.4, semver@^7.3.2, semver@^7.3.4, semver@^7.3.5, semver@^7.3.7, semver@^7.3.8, semver@^7.5.3:
+semver@7.5.4, semver@^7.3.2, semver@^7.3.4, semver@^7.3.5, semver@^7.3.7, semver@^7.3.8, semver@^7.5.3, semver@^7.5.4:
   version "7.5.4"
   resolved "https://registry.npmjs.org/semver/-/semver-7.5.4.tgz#483986ec4ed38e1c6c48c34894a9182dbff68a6e"
   integrity sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==
@@ -7582,6 +7592,13 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz#6eda4bd344a3c94aea376d4cc31bc77311039e09"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
+synckit@^0.6.0:
+  version "0.6.2"
+  resolved "https://registry.npmjs.org/synckit/-/synckit-0.6.2.tgz#e1540b97825f2855f7170b98276e8463167f33eb"
+  integrity sha512-Vhf+bUa//YSTYKseDiiEuQmhGCoIF3CVBhunm3r/DQnYiGT4JssmnKQc44BIyOZRK2pKjXXAgbhfmbeoC9CJpA==
+  dependencies:
+    tslib "^2.3.1"
+
 synckit@^0.8.0, synckit@^0.8.5:
   version "0.8.5"
   resolved "https://registry.npmjs.org/synckit/-/synckit-0.8.5.tgz#b7f4358f9bb559437f9f167eb6bc46b3c9818fa3"
@@ -7781,6 +7798,11 @@ tslib@^2.0.1, tslib@^2.1.0:
   version "2.2.0"
   resolved "https://registry.npmjs.org/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
   integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
+
+tslib@^2.3.1:
+  version "2.6.2"
+  resolved "https://registry.npmjs.org/tslib/-/tslib-2.6.2.tgz#703ac29425e7b37cd6fd456e92404d46d1f3e4ae"
+  integrity sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==
 
 tslib@^2.4.0:
   version "2.4.1"
