@@ -1,0 +1,1056 @@
+repo_name: 2lambda123/hyper
+report_id: f8ad224c0cb15df4530da8a2b3975b71
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:18:27+00:00'
+requested_by: LabhanshAgrawal
+provider: github
+branch: master
+detected_tools_count: 89
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/2lambda123/hyper
+  detection_source: Repo Metadata
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/2lambda123/hyper
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/package.json
+  detection_source: app/package.json
+- name: Electron
+  description: Build cross platform desktop apps with JavaScript, HTML, and CSS
+  website_url: http://electron.atom.io/
+  version: 20.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Desktop Development
+  image_url: https://img.stackshare.io/service/2946/default_18a71b65e69d7aef5f218ae07f64eb6e1594c444.jpg
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: Node.js
+  description: A platform built on Chrome's JavaScript runtime for easily building
+    fast, scalable network applications
+  website_url: http://nodejs.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1011/n1JRsFeB_400x400.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/package.json
+  detection_source: package.json
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/yarn.lock
+  detection_source: app/package.json
+- name: Redux
+  description: Predictable state container for JavaScript apps
+  website_url: https://redux.js.org/
+  version: 4.2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/4074/13142323.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/package.json
+  detection_source: package.json
+- name: redux-thunk
+  description: Thunk middleware for Redux
+  website_url: https://github.com/gaearon/redux-thunk
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/5448/13142323.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/package.json
+  detection_source: package.json
+- name: reselect
+  description: Selector library for Redux
+  website_url: https://github.com/reactjs/reselect
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: State Management Library
+  image_url: https://img.stackshare.io/service/7757/13142323.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/package.json
+  detection_source: package.json
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 7.20.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/package.json
+  detection_source: package.json
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/hyper
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/.github/workflows/codeql-analysis.yml
+  detection_source: ".github/workflows/codeql-analysis.yml"
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/package.json
+  detection_source: app/package.json
+- name: Playwright
+  description: Node library to automate Chromium, Firefox and WebKit with a single
+    API (By Microsoft)
+  website_url: https://github.com/microsoft/playwright
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/package.json
+  detection_source: package.json
+- name: Prettier
+  description: Prettier is an opinionated code formatter.
+  website_url: https://prettier.io/
+  version: 2.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 5.75.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/.yarnrc
+  detection_source: ".yarnrc"
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/package.json
+  detection_source: package.json
+- name: Ora
+  description: Agile task management and visual team collaboration, Ora is your team’s
+    command center with kanban, chat and timers!
+  website_url: https://ora.pm/
+  open_source: false
+  hosted_saas: true
+  category: Collaboration
+  sub_category: Project Management
+  image_url: https://img.stackshare.io/service/6925/preview.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/package.json
+  detection_source: package.json
+- name: Lodash
+  description: A JavaScript utility library
+  website_url: https://lodash.com
+  version: 4.17.21
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/2438/lodash.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/yarn.lock
+  detection_source: app/package.json
+- name: NSIS
+  description: Professional open source system to create Windows installers
+  website_url: http://nsis.sourceforge.net/
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4728/Box.gif
+  detection_source_url: https://github.com/2lambda123/hyper
+  detection_source: Repo Metadata
+- name: React Navigation
+  description: Flexible navigation library for React Native and web. Learn once, navigate
+    anywhere.
+  website_url: https://reactnavigation.org/
+  open_source: false
+  hosted_saas: false
+  category: Mobile
+  sub_category: Cross-Platform Mobile Tools
+  image_url: https://img.stackshare.io/service/6422/react-navigation.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/package.json
+  detection_source: package.json
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/2lambda123/hyper
+  detection_source: Repo Metadata
+- name: chalk
+  description: terminal colors
+  website_url: https://github.com/chalk/chalk
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/8072/13122722.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/package.json
+  detection_source: package.json
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/package.json
+  detection_source: package.json
+- name: "@babel/cli"
+  description: Babel command line
+  package_url: https://www.npmjs.com/@babel/cli
+  version: 7.19.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15848/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@babel/core"
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/@babel/core
+  version: 7.20.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15810/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@babel/plugin-proposal-class-properties"
+  description: This plugin transforms static class properties as well as properties
+    declared with the property initializer syntax
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-class-properties
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15903/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@babel/plugin-proposal-numeric-separator"
+  description: Remove numeric separators from Decimal
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-numeric-separator
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16469/default_2e7c1d6d94467a56325f7c984571015e8713a450.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@babel/plugin-proposal-object-rest-spread"
+  description: Compile object rest and spread to ES5
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-object-rest-spread
+  version: 7.20.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16001/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@babel/plugin-proposal-optional-chaining"
+  description: Transform optional chaining operators into a series of nil checks
+  package_url: https://www.npmjs.com/@babel/plugin-proposal-optional-chaining
+  version: 7.18.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16306/default_f130429ee56156823c8c6e94da6fb7aa07f07ba5.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@babel/preset-react"
+  description: Babel preset for all React plugins
+  package_url: https://www.npmjs.com/@babel/preset-react
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15890/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@babel/preset-typescript"
+  description: Babel preset for TypeScript
+  package_url: https://www.npmjs.com/@babel/preset-typescript
+  version: 7.18.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16084/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@types/fs-extra"
+  description: TypeScript definitions for fs-extra
+  package_url: https://www.npmjs.com/@types/fs-extra
+  version: 9.0.13
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16170/default_1f3a2fc7d882e29a43394ecdf491b8989ea3f0fa.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@types/lodash"
+  description: TypeScript definitions for Lo-Dash
+  package_url: https://www.npmjs.com/@types/lodash
+  version: 4.14.191
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15945/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@types/mkdirp"
+  description: TypeScript definitions for mkdirp
+  package_url: https://www.npmjs.com/@types/mkdirp
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16738/default_aa2369d4412b5a2c6812de3c666299e0ccd25ea2.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@types/node"
+  description: TypeScript definitions for Node.js
+  package_url: https://www.npmjs.com/@types/node
+  version: 16.18.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15809/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 17.0.43
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 17.0.14
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@types/react-redux"
+  description: TypeScript definitions for react-redux
+  package_url: https://www.npmjs.com/@types/react-redux
+  version: 7.1.22
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16687/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@types/uuid"
+  description: TypeScript definitions for uuid
+  package_url: https://www.npmjs.com/@types/uuid
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16257/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@typescript-eslint/eslint-plugin"
+  description: TypeScript plugin for ESLint
+  package_url: https://www.npmjs.com/@typescript-eslint/eslint-plugin
+  version: 4.33.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15982/default_8b5680d4e916298d08363c291a0d6e34c07ceb15.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: "@typescript-eslint/parser"
+  description: An ESLint custom parser which leverages TypeScript ESTree
+  package_url: https://www.npmjs.com/@typescript-eslint/parser
+  version: 4.33.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15980/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: args
+  description: Minimal toolkit for building CLIs
+  package_url: https://www.npmjs.com/args
+  version: 5.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18244/default_b102609c7a7fb86f3c2ca3ec026f3011d275978b.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: ava
+  description: Testing can be a drag. AVA helps you get it done
+  package_url: https://www.npmjs.com/ava
+  version: 5.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15883/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 9.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: chalk
+  description: Terminal string styling done right
+  package_url: https://www.npmjs.com/chalk
+  version: 2.4.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15813/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: chokidar
+  description: A neat wrapper around node.js fs.watch / fs.watchFile / fsevents
+  package_url: https://www.npmjs.com/chokidar
+  version: 3.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16043/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/yarn.lock
+  detection_source: app/package.json
+- name: color
+  description: Color conversion and manipulation with CSS string support
+  package_url: https://www.npmjs.com/color
+  version: 4.2.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16600/default_9d292a50abc76f1f74581b311ad930a616b1785c.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/yarn.lock
+  detection_source: app/package.json
+- name: columnify
+  description: Render data in text columns. Supports in-column text-wrap
+  package_url: https://www.npmjs.com/columnify
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17942/default_cc042fd7c0a9cf091d301af307c99c8b7b08b8bc.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 7.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: copy-webpack-plugin
+  description: Copy files &amp;&amp; directories with webpack
+  package_url: https://www.npmjs.com/copy-webpack-plugin
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: cpy-cli
+  description: Copy files
+  package_url: https://www.npmjs.com/cpy-cli
+  version: 3.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16964/default_824835a71140f223a333a5e10225c10368f12857.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: cross-env
+  description: Run scripts that set and use environment variables across platforms
+  package_url: https://www.npmjs.com/cross-env
+  version: 7.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15828/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: electron-builder
+  description: A complete solution to package and build a ready for distribution Electron
+    app for MacOS
+  package_url: https://www.npmjs.com/electron-builder
+  version: 23.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17567/default_cce6af1cc5c037d170650dfd256f479915d5a8e4.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: electron-rebuild
+  description: Electron supporting package to rebuild native node modules against
+    the currently installed electron
+  package_url: https://www.npmjs.com/electron-rebuild
+  version: 3.2.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18470/default_4e3195c551a49e7a4f12273dc00d9b1e5f37732b.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: eslint-config-prettier
+  description: Turns off all rules that are unnecessary or might conflict with Prettier
+  package_url: https://www.npmjs.com/eslint-config-prettier
+  version: 8.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15879/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: eslint-plugin-eslint-comments
+  description: Additional ESLint rules for ESLint directive comments
+  package_url: https://www.npmjs.com/eslint-plugin-eslint-comments
+  version: 3.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17716/default_9693d58c90f5c726ee648423687212d2a94266da.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 4.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: eslint-plugin-react
+  description: React specific linting rules for ESLint
+  package_url: https://www.npmjs.com/eslint-plugin-react
+  version: 7.31.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15817/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: fs-extra
+  description: Fs-extra contains methods that aren't included in the vanilla Node.js
+    fs package
+  package_url: https://www.npmjs.com/fs-extra
+  version: 11.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15836/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/yarn.lock
+  detection_source: app/package.json
+- name: got
+  description: Human-friendly and powerful HTTP request library for Node.js
+  package_url: https://www.npmjs.com/got
+  version: 12.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16258/default_ab17554b7e80af3d234b14168ed61e75d43f8eee.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 8.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: inquirer
+  description: A collection of common interactive command line user interfaces
+  package_url: https://www.npmjs.com/inquirer
+  version: 9.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15911/default_4dc9671df0093fd7061f6455afdf054e6cc9dacb.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: json-loader
+  description: Json loader module for webpack
+  package_url: https://www.npmjs.com/json-loader
+  version: 0.5.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15995/default_200de1a6fc4121e019ce4a5b0cf9ad37c7756e2d.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: mkdirp
+  description: Recursively mkdir, like `mkdir -p`
+  package_url: https://www.npmjs.com/mkdirp
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/yarn.lock
+  detection_source: app/package.json
+- name: mousetrap
+  description: Simple library for handling keyboard shortcuts
+  package_url: https://www.npmjs.com/mousetrap
+  version: 1.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18018/image.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: ms
+  description: Tiny millisecond conversion utility
+  package_url: https://www.npmjs.com/ms
+  version: 2.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16565/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/yarn.lock
+  detection_source: app/package.json
+- name: node-addon-api
+  description: Node.js API
+  package_url: https://www.npmjs.com/node-addon-api
+  version: 3.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17849/default_99a4718ac3f2beccb28962b727b0a38010c9b496.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/yarn.lock
+  detection_source: package.json
+- name: node-gyp
+  description: Node.js native addon build tool
+  package_url: https://www.npmjs.com/node-gyp
+  version: 9.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16669/default_6dad4e42e12d47cc6edfbdea036dae12f91abebb.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: null-loader
+  description: A webpack loader that returns an empty module
+  package_url: https://www.npmjs.com/null-loader
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16787/default_6c86c81e45e0f08d11e77cb7e07388a0317cf081.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: open
+  description: Open stuff like URLs, files, executables. Cross-platform
+  package_url: https://www.npmjs.com/open
+  version: 8.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16245/default_5dfc1810d0882ab844578a326bb8bf19e45e7227.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: pify
+  description: Promisify a callback-style function
+  package_url: https://www.npmjs.com/pify
+  version: 5.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16440/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/yarn.lock
+  detection_source: app/package.json
+- name: plist
+  description: Mac OS X Plist parser/builder for Node.js and browsers
+  package_url: https://www.npmjs.com/plist
+  version: 3.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17352/default_2cd7ed1c123f2fca074a6f4b16c4e73d5bfe82be.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: proxyquire
+  description: Proxies nodejs require in order to allow overriding dependencies during
+    testing
+  package_url: https://www.npmjs.com/proxyquire
+  version: 2.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16138/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 17.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/yarn.lock
+  detection_source: app/package.json
+- name: react-redux
+  description: Official React bindings for Redux
+  package_url: https://www.npmjs.com/react-redux
+  version: 7.2.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15984/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: recast
+  description: JavaScript syntax tree transformer
+  package_url: https://www.npmjs.com/recast
+  version: 0.21.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17195/default_183829c5079b84333a720d8590a328efc043ba0e.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: redux-devtools-extension
+  description: Wrappers for Redux DevTools Extension
+  package_url: https://www.npmjs.com/redux-devtools-extension
+  version: 2.13.9
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17039/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: seamless-immutable
+  description: Immutable data structures for JavaScript which are backwards-compatible
+    with normal JS Arrays and Objects
+  package_url: https://www.npmjs.com/seamless-immutable
+  version: 7.1.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18352/default_66453dac5039f3ea2d494ebb900a31c627b16d29.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 7.3.8
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/yarn.lock
+  detection_source: app/package.json
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 7.5.2
+- name: style-loader
+  description: Style loader module for webpack
+  package_url: https://www.npmjs.com/style-loader
+  version: 3.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15822/default_004658cda9b38934f2871435e9dc15608c86e8be.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: styled-jsx
+  description: Full CSS support for JSX without compromises
+  package_url: https://www.npmjs.com/styled-jsx
+  version: 5.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17785/default_ade6298147a2f4c78d7d49e1ea77c0d3a3bbd44f.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: terser
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/terser
+  version: 5.16.1
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16562/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: ts-node
+  description: TypeScript execution environment and REPL for node.js
+  package_url: https://www.npmjs.com/ts-node
+  version: 10.9.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15830/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
+- name: uuid
+  description: RFC4122
+  package_url: https://www.npmjs.com/uuid
+  version: 9.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15916/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/app/yarn.lock
+  detection_source: app/package.json
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 5.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/2lambda123/hyper/blob/master/yarn.lock
+  detection_source: package.json
