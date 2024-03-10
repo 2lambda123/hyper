@@ -672,10 +672,10 @@
     minimist "^1.2.6"
     plist "^3.0.5"
 
-"@electron/rebuild@^3.3.0":
-  version "3.3.0"
-  resolved "https://registry.npmjs.org/@electron/rebuild/-/rebuild-3.3.0.tgz#6ba0ae1cb545b2e314901d2ac175ca9c03a2e3da"
-  integrity sha512-S1vgpzIOS1wCJmsYjdLz97MTUV6UTLcMk/HE3w90HYtVxvW+PQdwxLbgsrECX2bysqcnmM5a0K6mXj/gwVgYtQ==
+"@electron/rebuild@^3.6.0":
+  version "3.6.0"
+  resolved "https://registry.npmjs.org/@electron/rebuild/-/rebuild-3.6.0.tgz#60211375a5f8541a71eb07dd2f97354ad0b2b96f"
+  integrity sha512-zF4x3QupRU3uNGaP5X1wjpmcjfw1H87kyqZ00Tc3HvriV+4gmOGuvQjGNkrJuXdsApssdNyVwLsy+TaeTGGcVw==
   dependencies:
     "@malept/cross-spawn-promise" "^2.0.0"
     chalk "^4.0.0"
@@ -684,9 +684,10 @@
     fs-extra "^10.0.0"
     got "^11.7.0"
     node-abi "^3.45.0"
-    node-api-version "^0.1.4"
+    node-api-version "^0.2.0"
     node-gyp "^9.0.0"
     ora "^5.1.0"
+    read-binary-file-arch "^1.0.6"
     semver "^7.3.5"
     tar "^6.0.5"
     yargs "^17.0.1"
@@ -6025,10 +6026,10 @@ node-addon-api@^1.6.3:
   resolved "https://registry.npmjs.org/node-addon-api/-/node-addon-api-1.7.2.tgz#3df30b95720b53c24e59948b49532b662444f54d"
   integrity sha512-ibPK3iA+vaY1eEjESkQkM0BbCqFOaZMiXRTtdB0u7b4djtY6JnsjvPdUHVMg6xQt3B8fpTTWHI9A+ADjM9frzg==
 
-node-api-version@^0.1.4:
-  version "0.1.4"
-  resolved "https://registry.npmjs.org/node-api-version/-/node-api-version-0.1.4.tgz#1ed46a485e462d55d66b5aa1fe2821720dedf080"
-  integrity sha512-KGXihXdUChwJAOHO53bv9/vXcLmdUsZ6jIptbvYvkpKfth+r7jw44JkVxQFA3kX5nQjzjmGu1uAu/xNNLNlI5g==
+node-api-version@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npmjs.org/node-api-version/-/node-api-version-0.2.0.tgz#5177441da2b1046a4d4547ab9e0972eed7b1ac1d"
+  integrity sha512-fthTTsi8CxaBXMaBAD7ST2uylwvsnYxh2PfaScwpMhos6KlSFajXQPcM4ogNE1q2s3Lbz9GCGqeIHC+C6OZnKg==
   dependencies:
     semver "^7.3.5"
 
@@ -6902,6 +6903,13 @@ react@18.2.0:
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
   dependencies:
     loose-envify "^1.1.0"
+
+read-binary-file-arch@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.npmjs.org/read-binary-file-arch/-/read-binary-file-arch-1.0.6.tgz#959c4637daa932280a9b911b1a6766a7e44288fc"
+  integrity sha512-BNg9EN3DD3GsDXX7Aa8O4p92sryjkmzYYgmgTAc6CA4uGLEDzFfxOxugu21akOxpcXHiEgsYkC6nPsQvLLLmEg==
+  dependencies:
+    debug "^4.3.4"
 
 read-config-file@6.3.2:
   version "6.3.2"
